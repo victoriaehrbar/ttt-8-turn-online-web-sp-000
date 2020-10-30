@@ -24,7 +24,7 @@ def turn(board)
   input2 = input_to_index(input1)
   if valid_move?(board, input2)
     move(board, input2, "X")
-    #display_board(board)
+    display_board(board)
   else
     turn(board)
 
