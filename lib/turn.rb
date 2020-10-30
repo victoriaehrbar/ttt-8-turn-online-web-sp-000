@@ -23,6 +23,10 @@ def turn(board)
   input1 = gets.strip
   input2 = input_to_index(input1)
   if valid_move?(board, input2)
-  else turn(board)
+    move(board, input2, "X")
+    display_board(board)
+  else
+    turn(board)
+
 end
 end

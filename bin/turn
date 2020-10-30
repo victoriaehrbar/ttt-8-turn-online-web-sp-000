@@ -6,8 +6,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
-
-def turn
-  puts input_to_index
-  gets user_input
-end
